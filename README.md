@@ -1,2 +1,5 @@
 # ED_prog_avanc
-Estudo dirigido programação avancada
+
+Aluno: Lucas Ferreira de Almeida
+
+Estudo dirigido - Programação Avancada
