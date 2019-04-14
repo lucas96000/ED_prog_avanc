@@ -18,7 +18,19 @@ class Carro : public Veiculo {
 	public:
 		//getters 
 		string  getModelo  (){ return _modelo; }
-		Cores   getCor 	   (){ return _cor; }
+		string  getCor 	   (){ 
+			switch(_cor){
+				case PRETO:
+					return "Preto";
+					break;
+				case BRANCO:
+					return "Branco";
+					break;
+				case CINZA:
+					return "Cinza";
+					break;
+			};	
+		}
 		
 		//setters
 		void 	setModelo  (string modelo){
@@ -40,13 +52,13 @@ class Carro : public Veiculo {
 		//Metodos
 		void imprime(){
 			Veiculo::imprime();
-			cout << "modelo -> " << getModelo() << endl;
+			cout << "modelo -> "     << getModelo() << endl;
 			cout << "cor -> " 	 << getCor() 	<< endl;
 		}
 		
 	protected:
 		string _modelo;
-	    Cores  _cor;
+	        Cores  _cor;
 };
 
 #endif
