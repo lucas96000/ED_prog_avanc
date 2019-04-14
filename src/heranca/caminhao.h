@@ -9,9 +9,9 @@ using namespace std;
 class Caminhao : public Veiculo {
 	public:
 		//getters 
-		double  getCapacidade  		(){ return _capacidade;  }
+		double  getCapacidade  	    (){ return _capacidade ; }
 		double  getComprimento 	    (){ return _comprimento; }
-		double  getAlturaMax 	    (){ return _alturaMax;   }
+		double  getAlturaMax 	    (){ return _alturaMax  ; }
 		
 		//setters
 		void 	setCapacidade   (double capacidade){
@@ -39,12 +39,12 @@ class Caminhao : public Veiculo {
 		void imprime(){
 			Veiculo::imprime();
 			cout << "capaciadade   -> "	<< getCapacidade() 	<< " Kg" << endl;
-			cout << "comprimento   -> "	<< getComprimento() << " m"  << endl;
-			cout << "altura maxima -> " << getAlturaMax() 	<< " m"  << endl;
+			cout << "comprimento   -> "	<< getComprimento()     << " m"  << endl;
+			cout << "altura maxima -> "     << getAlturaMax() 	<< " m"  << endl;
 		}
 		
 	protected:
-		double _capacidade;
+	    double _capacidade;
 	    double _comprimento;
 	    double _alturaMax;
 };
