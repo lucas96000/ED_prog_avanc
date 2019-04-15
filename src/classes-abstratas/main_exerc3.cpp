@@ -7,14 +7,14 @@ using namespace std;
 
 //Opcoes do menu, enum para melhor visualizacao do codigo na parte do switch
 enum MenuOps{
-	CADASTRAR 	  = 1,
-	LISTAR	  	  = 2,
-	SELECIONAR 	  = 3,
+	CADASTRAR 	    = 1,
+	LISTAR	  	    = 2,
+	SELECIONAR 	    = 3,
 	DEPOSITAR	    = 4,
 	RETIRAR		    = 5,
 	EXTRATO		    = 6,
-	TRANSFERENCIA = 7,
-	SAIR		      = 8
+	TRANSFERENCIA 	    = 7,
+	SAIR		    = 8
 };
 
 int main(int argc, char** argv) {
@@ -62,9 +62,6 @@ int main(int argc, char** argv) {
 				cout << "Opcao invalida" << endl;
 				break;
 		};
-		
-		printf("%d", op);
-		
 	} while(op != 8);
 
 	
