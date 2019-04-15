@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include "./bancoView.h"
-#include "./bancoController.h"
 
 using namespace std;
 
