@@ -15,15 +15,30 @@ class Caminhao : public Veiculo {
 		
 		//setters
 		void 	setCapacidade   (double capacidade){
-			_capacidade = capacidade;
+			if(capacidade > 0){
+				_capacidade = capacidade;
+			}
+			else{
+				cout << "O numero deve ser positivo!\n" << endl;
+			}
 		}
 		
 		void 	setComprimento  (double comprimento){
-			_comprimento = comprimento;
+			if(comprimento > 0){							
+				_comprimento = comprimento;
+			}
+			else{
+				cout << "O numero deve ser positivo!\n" << endl;
+			}
 		}
 		
 		void 	setAlturaMax    (double alturaMax){
-			_alturaMax = alturaMax;
+			if(alturaMax > 0){							
+				_alturaMax = alturaMax;
+			}
+			else{
+				cout << "O numero deve ser positivo!\n" << endl;
+			}
 		}
 		
 		// construtores
