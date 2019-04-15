@@ -1,4 +1,4 @@
-# ED_prog_avanc
+# programacao-avancada
 
 Aluno: Lucas Ferreira de Almeida
 
