@@ -78,6 +78,7 @@ class BancoView {
 			
 			if(contaNum <= 0){
 				exibirMensagemErro("Numero de conta invalido!");
+				return;
 			}
 			
 			contaSelecionada = bc->selecionarConta(contaNum);
