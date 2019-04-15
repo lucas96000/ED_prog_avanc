@@ -34,7 +34,7 @@ class BancoView {
 		int lerOpcao(){
 			int op;
 			
-			scanf("%d", &op);
+			cin >> op;
 			
 			return op;
 		}
